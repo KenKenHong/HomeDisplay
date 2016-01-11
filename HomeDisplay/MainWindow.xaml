@@ -9,7 +9,7 @@
         
         mc:Ignorable="d"
         Title="HomeDisplay" Height="768" Width="1366" WindowStyle="None" ResizeMode="NoResize" ShowInTaskbar="False" Topmost="True" WindowStartupLocation="CenterScreen" WindowState="Maximized">
-    <Grid>
+    <Grid Margin="0,-2,0,2">
         <Label x:Name="label" Content="January-05-16" HorizontalAlignment="Left" Margin="853,536,0,0" VerticalAlignment="Top" Height="86" Width="513" FontFamily="Arial" FontSize="64"/>
         <Label x:Name="label1" Content="12:15:46" HorizontalAlignment="Left" Margin="1016,622,0,0" VerticalAlignment="Top" Height="79" Width="258" FontFamily="Arial" FontSize="64"/>
         <Grid HorizontalAlignment="Left" Height="144" Margin="130,70,0,0" VerticalAlignment="Top" Width="144">
@@ -86,13 +86,16 @@
         </Grid>
         <Label x:Name="label2" Content="Current Temperature:" HorizontalAlignment="Left" Margin="650,70,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.526,0.538" Height="52" Width="364" FontFamily="Arial" FontSize="37.333"/>
         <Label x:Name="label3" Content="-15 C" HorizontalAlignment="Left" Margin="1019,70,0,0" VerticalAlignment="Top" Height="63" Width="112" FontFamily="Arial" FontSize="37.333"/>
-        <Label x:Name="label4" Content="Partly Cloudy" HorizontalAlignment="Left" Margin="652,124,0,0" VerticalAlignment="Top" Height="57" Width="415" FontSize="37.333" FontFamily="Arial"/>
+        <Label x:Name="label4" Content="Partly Cloudy" HorizontalAlignment="Left" Margin="652,124,0,0" VerticalAlignment="Top" Height="57" Width="239" FontSize="37.333" FontFamily="Arial"/>
         <Label x:Name="label5" Content="Humidity:" HorizontalAlignment="Left" Margin="652,181,0,0" VerticalAlignment="Top" Height="66" Width="173" FontFamily="Arial" FontSize="37.333"/>
         <Label x:Name="label6" Content="67" HorizontalAlignment="Left" Margin="813,181,0,0" VerticalAlignment="Top" Height="66" Width="59" FontFamily="Arial" FontSize="37.333"/>
         <Label x:Name="label7" Content="High:" HorizontalAlignment="Left" Margin="873,181,0,0" VerticalAlignment="Top" Height="66" Width="173" FontFamily="Arial" FontSize="37.333"/>
         <Label x:Name="label8" Content="-15 C" HorizontalAlignment="Left" Margin="963,181,0,0" VerticalAlignment="Top" Height="66" Width="104" FontFamily="Arial" FontSize="37.333" RenderTransformOrigin="0.492,0.47"/>
         <Label x:Name="label9" Content="Low:" HorizontalAlignment="Left" Margin="1069,179,0,0" VerticalAlignment="Top" Height="66" Width="173" FontFamily="Arial" FontSize="37.333"/>
         <Label x:Name="label10" Content="-15 C" HorizontalAlignment="Left" Margin="1159,179,0,0" VerticalAlignment="Top" Height="66" Width="115" FontFamily="Arial" FontSize="37.333" RenderTransformOrigin="0.5,0.5"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="133" Margin="481,81,0,0" VerticalAlignment="Top" Width="164" Source="Simple Cloud.png"/>
+        <Label x:Name="label11" Content="Last Updated: Mon, 11 Jan 2016 10:00 am CST" HorizontalAlignment="Left" Margin="738,236,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.526,0.615" Width="522" Height="44" FontFamily="Arial" FontSize="24"/>
+        <Label x:Name="label12" Content="Label" HorizontalAlignment="Left" Margin="1250,-80,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 
